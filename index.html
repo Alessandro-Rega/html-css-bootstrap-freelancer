@@ -27,26 +27,134 @@
     </header>
 
     <main>
-        <div class="container-fluid bg_color_web d-flex flex-column align-items-center">
+        <!-- header main -->
+        <section>
+            <div class="container-fluid bg_color_web d-flex flex-column align-items-center">
+                
+                <img class="avatar mt-4" src="img/avatar.svg" alt="user">
+
+                <h1 class="text-uppercase text-white fw-bold titolo mt-4 mb-3">start bootstrap</h1>
             
-            <img class="avatar" src="img/avatar.svg" alt="user">
+                <div class="stella d-flex align-items-center mb-4">
+                    <span class="linea_stella mx-2 bg-white"></span>
+                    <i class="fas fa-star text-white fs-1"></i>
+                    <span class="linea_stella mx-2 bg-white"></span>
+                </div>
 
-            <h1 class="text-uppercase text-white fw-bold titolo my-4">start bootstrap</h1>
+                <div class="scritte_header text-uppercase text-white fs-5 fw-normal mb-5">
+                    <span>graphic artist</span>
+                    <span>-</span>
+                    <span>web designer</span>
+                    <span>-</span>
+                    <span>illustrator</span>
+                </div>
+            </div>
+        </section>
         
-            <div class="stella d-flex align-items-center mb-4">
-                <span class="linea_stella mx-2"></span>
-                <i class="fas fa-star text-white fs-1"></i>
-                <span class="linea_stella mx-2"></span>
+        <!-- titolo portfolio -->
+        <section>
+            <div class="container-fluid d-flex flex-column align-items-center my-4">
+                <span class="text-uppercase fw-bold fs-2 my-3">portfolio</span>
+
+                <div class="stella d-flex align-items-center">
+                    <span class="linea_stella mx-2 bg-dark"></span>
+                    <i class="fas fa-star text-dark fs-1"></i>
+                    <span class="linea_stella mx-2 bg-dark"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- quadrati colorati -->
+        <section>
+
+            <div class="container-fluid">
+                <!-- quadrato -->
+                <div class="quadrato my-4">
+                    <img src="img/cabin.png" alt="cabina">
+                </div>
+
+                <div class="quadrato my-4">
+                    <img src="img/cake.png" alt="cake">
+                </div>
+
+                <div class="quadrato my-4">
+                    <img src="img/circus.png" alt="circus">
+                </div>
+
+                <div class="quadrato my-4">
+                    <img src="img/game.png" alt="game">
+                </div>
+
+                <div class="quadrato my-4">
+                    <img src="img/safe.png" alt="safe">
+                </div>
+
+                <div class="quadrato my-4">
+                    <img src="img/submarine.png" alt="submarine">
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section>
+            <div class="container-fluid d-flex flex-column align-items-center bg_color_web my-5">
+
+                <div class="container-sm d-flex flex-column align-items-center">
+                    <span class="text-uppercase fw-bold fs-2 my-3 text-white">about</span>
+
+                    <div class="stella d-flex align-items-center mb-4">
+                        <span class="linea_stella mx-2 bg-white"></span>
+                        <i class="fas fa-star text-white fs-1"></i>
+                        <span class="linea_stella mx-2 bg-white"></span>
+                    </div>
+                </div>
+
+                <div class="container-sm text-white fs-5 fw-normal pb-4 cont_about">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, ora a graphic artist looking to share your projects, this template is the perfect starting point! </p>
+                </div>
+
+                <button type="button" class="btn btn-outline-light fw-bold py-2 px-3 mb-4"><i class="fas fa-download"></i> Download</button>
+            </div>
+        </section>
+
+        <!-- contact me -->
+        <section>
+            <div class="container-fluid d-flex flex-column align-items-center my-4">
+                <span class="text-uppercase fw-bold fs-2 my-3">portfolio</span>
+
+                <div class="stella d-flex align-items-center">
+                    <span class="linea_stella mx-2 bg-dark"></span>
+                    <i class="fas fa-star text-dark fs-1"></i>
+                    <span class="linea_stella mx-2 bg-dark"></span>
+                </div>
             </div>
 
-            <div class="scritte_header text-uppercase text-white fs-5 fw-normal my-5">
-                <span>graphic artist</span>
-                <span>-</span>
-                <span>web designer</span>
-                <span>-</span>
-                <span>illustrator</span>
-            </div>
-        </div>
+            <form class="container-sm mb-4">
+                <div class="mb-3">
+                  <label class="form-label">Name</label>
+                  <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Phone Number</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Message</label>
+                    <input type="" class="form-control">
+                </div>
+
+                <button type="submit" class="btn btn-white text-white bg_color_web">Submit</button>
+              </form>
+        </section>
     </main>
 
 
