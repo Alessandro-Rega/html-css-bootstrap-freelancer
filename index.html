@@ -70,27 +70,27 @@
             <div class="container-fluid">
                 <!-- quadrato -->
                 <div class="quadrato my-4">
-                    <img src="img/cabin.png" alt="cabina">
+                    <img class="rounded" src="img/cabin.png" alt="cabina">
                 </div>
 
                 <div class="quadrato my-4">
-                    <img src="img/cake.png" alt="cake">
+                    <img class="rounded-2" src="img/cake.png" alt="cake">
                 </div>
 
                 <div class="quadrato my-4">
-                    <img src="img/circus.png" alt="circus">
+                    <img class="rounded-2" src="img/circus.png" alt="circus">
                 </div>
 
                 <div class="quadrato my-4">
-                    <img src="img/game.png" alt="game">
+                    <img class="rounded-2" src="img/game.png" alt="game">
                 </div>
 
                 <div class="quadrato my-4">
-                    <img src="img/safe.png" alt="safe">
+                    <img class="rounded-2" src="img/safe.png" alt="safe">
                 </div>
 
                 <div class="quadrato my-4">
-                    <img src="img/submarine.png" alt="submarine">
+                    <img class="rounded-2" src="img/submarine.png" alt="submarine">
                 </div>
             </div>
         </section>
@@ -122,7 +122,7 @@
         <!-- contact me -->
         <section>
             <div class="container-fluid d-flex flex-column align-items-center my-4">
-                <span class="text-uppercase fw-bold fs-2 my-3">portfolio</span>
+                <span class="text-uppercase fw-bold fs-2 my-3">Contact Me</span>
 
                 <div class="stella d-flex align-items-center">
                     <span class="linea_stella mx-2 bg-dark"></span>
@@ -131,31 +131,64 @@
                 </div>
             </div>
 
-            <form class="container-sm mb-4">
-                <div class="mb-3">
-                  <label class="form-label">Name</label>
-                  <input type="text" class="form-control">
+            <form class="mx-auto mb-4">
+                <div class="mb-2">
+                  <label class="fs-4">Name</label>
+                  <input type="text" class="form-control border-0 border-bottom">
                 </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control">
+                <div class="mb-2">
+                    <label class="fs-4">Email Address</label>
+                    <input type="email" class="form-control border-0 border-bottom">
                 </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Phone Number</label>
-                    <input type="text" class="form-control">
+                <div class="mb-2">
+                    <label class="fs-4">Phone Number</label>
+                    <input type="text" class="form-control border-0 border-bottom">
                 </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Message</label>
-                    <input type="" class="form-control">
+                <div class="mb-2">
+                    <label class="d-block fs-4">Message</label>
+                    <textarea name="message" cols="30" rows="5" class="border-0 border-bottom"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-white text-white bg_color_web">Submit</button>
+                <button type="submit" class="btn btn-white text-white bg_color_web">Send</button>
               </form>
         </section>
     </main>
+
+    <footer>
+
+        <!-- footer head -->
+        <div class="container-fluid bg_color_footer_head">
+            <!-- location -->
+            <div class="d-flex flex-column align-items-center py-5">
+                <span class="text-uppercase text-white fs-5">location</span>
+                <span class="text-white fs-5">2215 John Daniel Drive Clark, MO 54243</span>
+            </div>
+            <!-- web -->
+            <div class="d-flex flex-column align-items-center pb-5">
+                <span class="text-uppercase text-white fs-5">around the web</span>
+                <div class="icone">
+                    <button type="button" class="btn btn-outline-light fw-bold rounded-circle mx-1"><i class="fab fa-facebook-f fs-4 p-1 m-1"></i></button>
+                    <button type="button" class="btn btn-outline-light fw-bold rounded-circle mx-1"><i class="fab fa-google-plus-g fs-4 my-2"></i></button>
+                    <button type="button" class="btn btn-outline-light fw-bold rounded-circle mx-1"><i class="fab fa-twitter fs-4 my-2 mx-1"></i></button>
+                    <button type="button" class="btn btn-outline-light fw-bold rounded-circle mx-1"><i class="fab fa-linkedin-in fs-4 my-2 mx-1"></i></button>
+                </div>
+            </div>
+
+            <!-- freelancer -->
+            <div class="d-flex flex-column align-items-center text-center pb-5">
+                <span class="text-uppercase text-white fs-5">about freelancer</span>
+                <span class="text-white fs-5 about_freelancer mt-2">Freelancer is a free to use, open source Bootstrap theme created by <span class="color_freelancer">Start Bootstrap</span>.</span>
+            </div>
+        </div>
+
+        <!-- footer bottom -->
+        <div class="container-fluid d-flex justify-content-center bg_color_footer_bottom text-white fw-bold py-5">
+            <span>Copyright <i class="far fa-copyright"></i> Your Website 2019</span>
+        </div>
+    </footer>
 
 
 
