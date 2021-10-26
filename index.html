@@ -15,10 +15,17 @@
 </head>
 <body>
 
-    <header> 
-        <nav class="navbar navbar-dark px-3">
+    <header class="bg_color_header"> 
+        <nav class="container-sm navbar navbar-dark px-3">
             <span class="text-uppercase text-white fs-4 fw-bold">start bootstrap</span>
             <div class="m-4 justify-content-end">
+                <div class="menu pt-3">
+                    <ul>
+                        <li class="d-inline-block text-uppercase fw-bold mx-2"><a href="#">portfolio</a></li>
+                        <li class="d-inline-block text-uppercase fw-bold mx-2"><a href="#">about</a></li>
+                        <li class="d-inline-block text-uppercase fw-bold mx-2"><a href="#">contact</a></li>
+                    </ul>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -67,29 +74,29 @@
         <!-- quadrati colorati -->
         <section>
 
-            <div class="container-fluid">
+            <div class="container-xxl quadrato d-flex justify-content-center align-items-center">
                 <!-- quadrato -->
-                <div class="quadrato my-4">
+                <div class="m-2">
                     <img class="rounded" src="img/cabin.png" alt="cabina">
                 </div>
 
-                <div class="quadrato my-4">
+                <div class="m-2">
                     <img class="rounded-2" src="img/cake.png" alt="cake">
                 </div>
 
-                <div class="quadrato my-4">
+                <div class="m-2">
                     <img class="rounded-2" src="img/circus.png" alt="circus">
                 </div>
 
-                <div class="quadrato my-4">
+                <div class="m-2">
                     <img class="rounded-2" src="img/game.png" alt="game">
                 </div>
 
-                <div class="quadrato my-4">
+                <div class="m-2">
                     <img class="rounded-2" src="img/safe.png" alt="safe">
                 </div>
 
-                <div class="quadrato my-4">
+                <div class="m-2">
                     <img class="rounded-2" src="img/submarine.png" alt="submarine">
                 </div>
             </div>
@@ -109,10 +116,10 @@
                     </div>
                 </div>
 
-                <div class="container-sm text-white fs-5 fw-normal pb-4 cont_about">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                <div class="container-sm container-md text-white fs-5 fw-normal pb-4 d-flex about">
+                    <p class="mx-4">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                 
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, ora a graphic artist looking to share your projects, this template is the perfect starting point! </p>
+                    <p class="mx-4">Whether you're a student looking to showcase your work, a professional looking to attract clients, ora a graphic artist looking to share your projects, this template is the perfect starting point! </p>
                 </div>
 
                 <button type="button" class="btn btn-outline-light fw-bold py-2 px-3 mb-4"><i class="fas fa-download"></i> Download</button>
@@ -155,21 +162,22 @@
                 <button type="submit" class="btn btn-white text-white bg_color_web">Send</button>
               </form>
         </section>
+
     </main>
 
-    <footer>
+    <footer class="bg_color_footer_head">
 
         <!-- footer head -->
-        <div class="container-fluid bg_color_footer_head">
+        <div class="container-md bg_color_footer_head d-flex justify-content-center footer_head">
             <!-- location -->
-            <div class="d-flex flex-column align-items-center py-5">
-                <span class="text-uppercase text-white fs-5">location</span>
-                <span class="text-white fs-5">2215 John Daniel Drive Clark, MO 54243</span>
+            <div class="d-flex flex-column align-items-center location pb-3">
+                <span class="text-uppercase text-white fs-5 fw-bolder">location</span>
+                <span class="text-white fs-5 text-center">2215 John Daniel Drive Clark, MO 54243</span>
             </div>
             <!-- web -->
-            <div class="d-flex flex-column align-items-center pb-5">
-                <span class="text-uppercase text-white fs-5">around the web</span>
-                <div class="icone">
+            <div class="d-flex flex-column align-items-center web pb-3">
+                <span class="text-uppercase text-white fs-5 pb-2 fw-bolder">around the web</span>
+                <div class="icone d-flex">
                     <button type="button" class="btn btn-outline-light fw-bold rounded-circle mx-1"><i class="fab fa-facebook-f fs-4 p-1 m-1"></i></button>
                     <button type="button" class="btn btn-outline-light fw-bold rounded-circle mx-1"><i class="fab fa-google-plus-g fs-4 my-2"></i></button>
                     <button type="button" class="btn btn-outline-light fw-bold rounded-circle mx-1"><i class="fab fa-twitter fs-4 my-2 mx-1"></i></button>
@@ -178,16 +186,17 @@
             </div>
 
             <!-- freelancer -->
-            <div class="d-flex flex-column align-items-center text-center pb-5">
-                <span class="text-uppercase text-white fs-5">about freelancer</span>
+            <div class="d-flex flex-column align-items-center text-center freelancer pb-4">
+                <span class="text-uppercase text-white fs-5 fw-bolder">about freelancer</span>
                 <span class="text-white fs-5 about_freelancer mt-2">Freelancer is a free to use, open source Bootstrap theme created by <span class="color_freelancer">Start Bootstrap</span>.</span>
             </div>
         </div>
 
         <!-- footer bottom -->
-        <div class="container-fluid d-flex justify-content-center bg_color_footer_bottom text-white fw-bold py-5">
+        <div class="container-fluid d-flex align-items-center justify-content-center bg_color_footer_bottom text-white fw-bold py-5">
             <span>Copyright <i class="far fa-copyright"></i> Your Website 2019</span>
         </div>
+
     </footer>
 
 
